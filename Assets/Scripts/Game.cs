@@ -135,6 +135,7 @@ public class Game : MonoBehaviour
 
     private void Update()
     {
+        //This is the input for restarting the game
         if (Input.GetKeyDown(KeyCode.R))
         {
             NewGame();
