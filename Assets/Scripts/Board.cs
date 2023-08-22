@@ -20,7 +20,7 @@ public class Board : MonoBehaviour
 
     private void Awake()
     {
-        tilemap = GetComponent<Tilemap>();
+        tilemap = GetComponent<Tilemap>(); // blah
     }
 
     public void Draw(Cell[,] state)
